@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/login/main",
+    "pages/homepage/main",
+    "pages/myCenter/main",
+    "pages/myWishes/main",
+    "pages/video/main",
+    "pages/record/main",
+    "pages/article/main",
+    "pages/posterShare/main",
+    "pages/edit/main",
+    "pages/preview/main",
+    "pages/cardDetail/main",
+    "pages/picture/main",    
+    "pages/index/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f13b03",
+    "navigationBarTitleText": "制作我的贺卡",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "color":"#2c2c2c",
+    "selectedColor":"#f13b03",
+    "backgroundColor":"#fff",
+    "list":[
+      {
+        "pagePath":"pages/homepage/main",
+        "text":"制作首页",
+        "iconPath":"/static/images/homepage.png",
+        "selectedIconPath":"/static/images/homepage-1.png"
+      },
+      {
+        "pagePath":"pages/myWishes/main",
+        "text":"我的祝福",
+        "iconPath":"/static/images/my-wishes.png",
+        "selectedIconPath":"/static/images/my-wishes-1.png"
+      },
+      {
+        "pagePath":"pages/myCenter/main",
+        "text":"个人中心",
+        "iconPath":"/static/images/my-center.png",
+        "selectedIconPath":"/static/images/my-center-1.png"
+      }
+    ]
+  }
+}
